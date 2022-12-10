@@ -30,3 +30,7 @@ end
 group :test do
   gem "rack-test"
 end
+
+gem "slim", "~> 4.1"
+
+gem "hanami-view", github: "hanami/view", branch: "main"
